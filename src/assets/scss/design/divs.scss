@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    }
+.side-nav{
+    background-color: $theme-color-1; 
+    height: 100vh; 
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.side-nav-logo{
+    padding: 50px 15px;
+}
+
+.side-nav-icon-logo{
+    font-size: 35px;
+    color: $font-color-1;
+}
+
+.side-nav-button:link, .side-nav-button:visited{
+    width: 100%;
+    padding-left:2px;
+    border: solid 1px black;
+}
+
+.side-nav-button:hover{
+    background-color:$theme-color-2;
+    .side-nav-title{
+        color:$color-white;
+    }
+    .side-nav-icons{
+        color:$color-white       
+       }
+}
+
+.side-nav-title-logo{
+    padding: 0px 10px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    color: $font-color-1;
+}
+
+.side-nav-icons{
+    color: $font-color-1;
+    font-size: 30px !important;
+}
+
+.side-nav-title{
+    padding: 0px 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $font-color-1;
+}
+
+.divider{
+    padding-left: 0px;
+    padding-right: 0px;
+    .solid{
+        border-top:1px solid $theme-color-2;
+    }
+}
+
+.main-nav{
+    background-color: pink;
+    height: 50px;
+}
+
+.main-nav-logo{
+    max-width: 250px;
+    min-width: 250px;
+    height: 100%;
+    border: 1 solid black;
+}
+
+.main-content{
+    background-color: $theme-color-3;
+}
+
+
+
+//responsive
+@media only screen and (max-width:767px){
+    .side-nav{
+        background-color: $theme-color-1; 
+        height: 100vh; 
+        max-width:70px;
+        min-width: 70px;
+        padding-top: 20px;
+    }
+    .side-nav-logo{
+        
+        padding:5px 15px;
+        
+    }
+    .side-nav-title{
+        visibility: hidden;
+        display: none;
+    }
+    .side-nav-title-logo{
+        visibility: hidden;
+        display: none;
+    }
+    
+    .main-nav-logo{
+        text-align: left;
+        max-width:70px;
+        min-width: 70px;
+    }
+    .logo-title{
+        visibility: hidden;
+        display: none;
+    }
+    
+}
+
+.footer{
+    background-color: pink;
+    height: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+// html tags
+
+a:hover{
+    text-decoration: none;
+}

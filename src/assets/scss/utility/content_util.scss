@@ -1,0 +1,29 @@
+.static {
+    position: fixed;
+    z-index: 100;
+}
+
+.scrollable {
+    float: left;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.h-inherit{
+    height: inherit;
+}
+
+.h-fit{
+    height: fit-content;
+}
+
+.profile-button{
+    
+    max-width: 80px ; 
+    min-width: 80px;
+}
+
+

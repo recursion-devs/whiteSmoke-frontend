@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import './assets/scss/variable/variable.scss';
+//@import './assets/scss/utility/animations';
+// @import './assets/scss/utility/alignment.scss';
+@import './assets/scss/utility/positioning.scss';
+@import './assets/scss/utility/sizing.scss';
+@import './assets/scss/utility/content_util.scss';
+@import './assets/scss/design/divs.scss';
+
+html, body {
+    font-size: $default-font-size;
+}
